@@ -133,7 +133,23 @@
         transform: scale(1.1);
     }#btn:hover{box-shadow: 1px 1px 20px #ebebeb;}
  
-
+    @media only screen and (max-width: 860px) {
+        body{
+            overflow: scroll;
+        }
+        #btn{    top: 30%;
+            position: absolute;
+            z-index: 1000;
+            transform: scale(0.8);
+            left: -1%;}
+        #leath{    width: 800px;
+            background-size: contain;
+            height: 500px;
+            margin-top: 14%;
+            margin-left: 23%;}#album{position: relative;
+                width: 700px;
+                height: 500px;}#zoom{display:none}
+    }
 
   @media only screen and (max-width: 600px) {
 
