@@ -2014,5 +2014,47 @@ $(window).ready(function(){
    // document.getElementById()
     $('#album').turn('page', $('#page-numbermb').val());
 })   
+	 
+	 $('#mbpage').click(function(){
+    console.log('ok')
+   // document.getElementById()
+    $('#album').turn('page', $('#page-numbermb').val());
+})
+
+$('#vd1').click(function () {
+    
+    $('#vde1').html('<video style="width: 297px;width: 297px;position: absolute;top:40%;left: 10%;"src="kashmir.mp4" controls></video><span class="cls" onclick="vid()">x</span>')
+});
+$('#music1btn').click(function(){
+$('#music1').html('<audio id="vda"controls src="kashmir.mp3"></audio><p class="cls1" onclick="music1cls()">x</p>')
+})
+
+
+
+const disableselect = (e) => {   
+return false ;
+}
+const ableselect = (e) => {  
+return true ;
+} 
+$('#zoom1').click(function(){
+let  docu = document.getElementById('album');
+var aa=document.getElementById('selText').innerHTML ;
+if(aa==1){
+    document.getElementById('selText').innerHTML = '2';
+    docu.onselectstart = ableselect;
+    docu.onmousedown = ableselect;
+}
+ if(aa==2){
+    document.getElementById('selText').innerHTML = '1';
+    docu.onselectstart = disableselect;
+    docu.onmousedown = disableselect;
+}
+})
+
+
+let  docu = document.getElementById('album');
+docu.onselectstart = disableselect;
+docu.onmousedown = disableselect;
     
     })(jQuery);
