@@ -2009,6 +2009,10 @@ $(window).ready(function(){
                 $('#album').turn('previous');
                 audio.play();
             });
-        
+     $('#mbpage').click(function(){
+    console.log('ok')
+   // document.getElementById()
+    $('#album').turn('page', $('#page-numbermb').val());
+})   
     
     })(jQuery);
