@@ -136,7 +136,9 @@
 
 
   @media only screen and (max-width: 600px) {
-      
+      #page-numbermb:active{
+          top:10%;
+      }
       #vd1{
         width: 42px;
       }
