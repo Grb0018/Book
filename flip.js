@@ -1994,10 +1994,11 @@ docu.onmousedown = disableselect;
     }
     var shareButton= document.getElementById('copymb')
     shareButton.addEventListener('click', event => {
+	var a = document.URL;    
        if (navigator.share) { 
          navigator.share({
             title: 'WebShare API Demo',
-            url: 'https://www.blank'
+            url: a
           }).then(() => {
             console.log('Thanks for sharing!');
           })
