@@ -2086,10 +2086,11 @@ function music1cls(){
 }
 var shareButton= document.getElementById('zoom2')
 shareButton.addEventListener('click', event => {
+    var a = document.URL;
     if (navigator.share) { 
      navigator.share({
         title: 'WebShare API Demo',
-        url: 'https://www.blank'
+        url: a
       }).then(() => {
         console.log('Thanks for sharing!');
       })
