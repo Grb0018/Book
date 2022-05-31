@@ -139,6 +139,7 @@
         #page-numbermb:active{
             top:10%;
         }
+        #controls{top: -127%;}
         #selText{
             display:none;
         }
