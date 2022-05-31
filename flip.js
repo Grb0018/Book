@@ -1997,7 +1997,7 @@ docu.onmousedown = disableselect;
 	var a = document.URL;    
        if (navigator.share) { 
          navigator.share({
-            title: 'WebShare API Demo',
+            title: 'Flip Book By Bitblits.',
             url: a
           }).then(() => {
             console.log('Thanks for sharing!');
