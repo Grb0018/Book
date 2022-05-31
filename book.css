@@ -157,6 +157,7 @@
           body{
               padding:0;margin:0;
               background-size: 160% 140%;
+              overflow:scroll;
           }   
           .turn-page-wrapper{
               width:100%;
