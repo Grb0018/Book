@@ -9,7 +9,7 @@
     #mbbtn{
         display: none;
     }
-    #zoom1,#zoom2,#copymb{
+    #zoom1,#zoom2,#selmb,#copymb{
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -118,7 +118,7 @@
         margin-right: 76%;
     }
 
-    #zoom,#zoom1,#zoom2,#copymb{
+    #zoom,#zoom1,#zoom2,#selmb,#copymb{
         overflow: hidden;
         display: flex;
         justify-content: center;
@@ -131,7 +131,7 @@
         padding: 4px;
         align-items: center;
     }
-    #bck:hover,#bck1:hover,#nxt:hover,#nxt1:hover,#controls:hover,#zoom:hover,#zoom1:hover,#zoom2:hover,#copymb:hover{
+    #bck:hover,#bck1:hover,#nxt:hover,#nxt1:hover,#controls:hover,#zoom:hover,#zoom1:hover,#selmb:hover,#zoom2:hover,#copymb:hover{
         box-shadow: 2px 4px 5px #a7ffd7;
         transform: scale(1.1);
     }#btn:hover{box-shadow: 1px 1px 20px #ebebeb;}
@@ -176,7 +176,7 @@
               bottom: 0;
           }
           #zoom{ background-color: #5a6666;}
-          #zoom1,#zoom2,#copymb{    margin-left: 10px;
+          #zoom1,#zoom2,#selmb,#copymb{    margin-left: 10px;
               height: 40px;
               border-radius: 15px;
               width: 54px;
