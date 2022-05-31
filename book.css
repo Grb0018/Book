@@ -157,7 +157,6 @@
           body{
               padding:0;margin:0;
               background-size: 160% 140%;
-              max-height: 150vh;
           }   
           .turn-page-wrapper{
               width:100%;
